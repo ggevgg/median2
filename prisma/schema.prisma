@@ -1,0 +1,129 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x", "linux-musl"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int        @id @default(autoincrement())
+  name      String?
+  email     String     @unique
+  password  String
+  phone     String
+  role      String     @default("user")
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  Orders    Order[]
+  Feedbacks Feedback[]
+}
+
+model ProductGroup {
+  id               Int       @id @default(autoincrement())
+  title            String
+  descriptionShort String?
+  description      String?
+  thumbnail        String?
+  rating           Float     @default(0)
+  products         Product[]
+  brand            Brand?    @relation(fields: [brandId], references: [name])
+  brandId          String?
+  category         Category? @relation(fields: [categoryId], references: [name])
+  categoryId       String?
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+}
+
+model Product {
+  id                 Int               @id @default(autoincrement())
+  description        String?
+  isInStock          Boolean           @default(true)
+  price              Float             @default(0)
+  discountPercentage Float             @default(0)
+  stock              Int               @default(0)
+  thumbnail          String?
+  images             ImageProducts[]
+  createdAt          DateTime          @default(now())
+  updatedAt          DateTime          @updatedAt
+  characteristics    Characteristics[]
+  productGroup       ProductGroup?     @relation(fields: [productGroupId], references: [id], onDelete: Cascade)
+  productGroupId     Int?
+  orders             OrderProducts[]
+}
+
+model Brand {
+  name         String         @unique
+  description  String?
+  thumbnail    String?
+  ProductGroup ProductGroup[]
+
+  @@id([name])
+}
+
+model Category {
+  name         String         @unique
+  description  String?
+  thumbnail    String?
+  ProductGroup ProductGroup[]
+
+  @@id([name])
+}
+
+model Image {
+  id       Int             @id @default(autoincrement())
+  url      String          @unique()
+  products ImageProducts[]
+}
+
+model ImageProducts {
+  image     Image   @relation(fields: [imageId], references: [id], onDelete: Cascade)
+  imageId   Int
+  product   Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+  productId Int
+
+  @@id([imageId, productId])
+}
+
+model Characteristics {
+  name      String
+  value     String
+  product   Product? @relation(fields: [productId], references: [id], onDelete: Cascade)
+  productId Int
+
+  @@id([productId, name, value])
+}
+
+model Order {
+  id       Int             @id @default(autoincrement())
+  user     User?           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId   Int?
+  email    String?
+  phone    String?
+  name     String?
+  products OrderProducts[]
+}
+
+model OrderProducts {
+  order     Order   @relation(fields: [orderId], references: [id])
+  orderId   Int
+  product   Product @relation(fields: [productId], references: [id])
+  productId Int
+  amount    Int?
+
+  @@id([orderId, productId])
+}
+
+model Feedback {
+  id       Int     @id @default(autoincrement())
+  name     String
+  lastName String?
+  email    String
+  phone    String
+  message  String
+  user     User?   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId   Int?
+  createdAt DateTime   @default(now())
+}

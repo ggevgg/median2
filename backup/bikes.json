@@ -1,0 +1,295 @@
+[{
+  "title": "Електро-велосипед Konar",
+  "descriptionShort": "Потужність мотору:1000W; Пробіг:60км;",
+  "description": "",
+  "thumbnail": "8e251860-5814-44ab-a95a-83c9a5e34a8c.jpg",
+  "rating": 0,
+  "products": [{
+    "description": null,
+    "isInStock": true,
+    "price": 26760,
+    "discountPercentage": 2,
+    "stock": 36,
+    "thumbnail": null,
+    "characteristics": [{
+      "name": "Максимальне навантаження:",
+      "value": "120 кг"
+    }, {
+      "name": "Матеріал рами:",
+      "value": "Алюміній"
+    }, {
+      "name": "Розмір колеса:",
+      "value": "26"
+    }, {
+      "name": "Колір:",
+      "value": "Чорний"
+    }, {
+      "name": "Потужність мотору:",
+      "value": "1000W"
+    }, {
+      "name": "Об‘єм акумулятору:",
+      "value": "13 А/h"
+    }, {
+      "name": "Максимальный пробіг:",
+      "value": "60 км"
+    }, {
+      "name": "Час заряду:",
+      "value": "6.5 год"
+    }, {
+      "name": "Максимальна швидкість:",
+      "value": "50 км/ч"
+    }],
+    "images": [{
+      "url": "8e251860-5814-44ab-a95a-83c9a5e34a8c.jpg"
+    }, {
+      "url": "b2c89e90-74e7-47af-8198-2c551edd0129.jpg"
+    }, {
+      "url": "7e72e817-a49f-40a9-8e8d-7ba9d6d86f0f.jpg"
+    }, {
+      "url": "32971688-5f4b-4b01-be3d-0aa76e7719cb.jpg"
+    }, {
+      "url": "a929abbc-dcb9-4e15-8350-60ad533abc7d.jpg"
+    }, {
+      "url": "1b3aa61b-792a-48eb-9340-4a1e95e7b428.jpg"
+    }, {
+      "url": "3833e01d-5632-4df9-a737-e2419762f91a.jpg"
+    }, {
+      "url": "5c47bae2-9f33-41ad-abba-0dd9e5053fab.jpg"
+    }]
+  }],
+  "category": "bike",
+  "brand": "Cannondale"
+}, {
+  "title": "Електро-велосипед Paola",
+  "descriptionShort": "Потужність мотору:450W; Пробіг:40км;",
+  "description": "",
+  "thumbnail": "a24c569f-5ac4-438f-8b17-46d6e9161711.jpg",
+  "rating": 0,
+  "products": [{
+    "description": null,
+    "isInStock": true,
+    "price": 26760,
+    "discountPercentage": 2,
+    "stock": 36,
+    "thumbnail": null,
+    "characteristics": [{
+      "name": "Максимальне навантаження:",
+      "value": "120 кг"
+    }, {
+      "name": "Матеріал рами:",
+      "value": "Алюміній"
+    }, {
+      "name": "Розмір колеса:",
+      "value": "29"
+    }, {
+      "name": "Колір:",
+      "value": "Білий"
+    }, {
+      "name": "Потужність мотору:",
+      "value": "450W"
+    }, {
+      "name": "Об‘єм акумулятору:",
+      "value": "7.8 А/h"
+    }, {
+      "name": "Максимальный пробіг:",
+      "value": "40 км"
+    }, {
+      "name": "Час заряду:",
+      "value": "4 год"
+    }, {
+      "name": "Максимальна швидкість:",
+      "value": "40 км/ч"
+    }],
+    "images": [{
+      "url": "a24c569f-5ac4-438f-8b17-46d6e9161711.jpg"
+    }, {
+      "url": "aa3755ec-ab14-49fc-865a-ad428998b295.jpg"
+    }, {
+      "url": "d0278329-4b20-4b10-a3f4-e193e4eebc58.jpg"
+    }, {
+      "url": "b017165f-8578-4b57-b2de-e1ce8db8add4.jpg"
+    }, {
+      "url": "4ffd20ad-8873-4b80-a4b1-0791702bbf9e.jpg"
+    }, {
+      "url": "afda138f-9254-42cc-8bf5-94e9495c50ee.jpg"
+    }, {
+      "url": "4467443e-0fb9-4b5b-8f9b-33f28b42cff6.jpg"
+    }, {
+      "url": "98dca302-09d0-4d00-b7b8-5cc57c41e0fd.jpg"
+    }, {
+      "url": "a311a0b9-3f3d-4f51-8e27-a03f67e34275.jpg"
+    }]
+  }],
+  "category": "bike",
+  "brand": "Ardis Paola"
+}, {
+  "title": "Електро-велосипед Konar",
+  "descriptionShort": "Потужність мотору:1000W; Пробіг:60км;",
+  "description": "Konar - гірський велосипед який проїде будь-де.",
+  "thumbnail": "51d42c3a-476a-4846-98de-27a3855d437a.jpg",
+  "rating": 0,
+  "products": [{
+    "description": null,
+    "isInStock": true,
+    "price": 26760,
+    "discountPercentage": 2,
+    "stock": 36,
+    "thumbnail": null,
+    "characteristics": [{
+      "name": "Максимальне навантаження:",
+      "value": "120 кг"
+    }, {
+      "name": "Матеріал рами:",
+      "value": "Алюміній"
+    }, {
+      "name": "Розмір колеса:",
+      "value": "29"
+    }, {
+      "name": "Колір:",
+      "value": "Чорний"
+    }, {
+      "name": "Потужність мотору:",
+      "value": "1000W"
+    }, {
+      "name": "Об‘єм акумулятору:",
+      "value": "13 А/h"
+    }, {
+      "name": "Максимальный пробіг:",
+      "value": "60 км"
+    }, {
+      "name": "Час заряду:",
+      "value": "6.5 год"
+    }, {
+      "name": "Максимальна швидкість:",
+      "value": "50 км/ч"
+    }],
+    "images": [{
+      "url": "51d42c3a-476a-4846-98de-27a3855d437a.jpg"
+    }, {
+      "url": "10ecccde-7757-4c3f-9462-43ed0715a175.jpg"
+    }, {
+      "url": "d0188228-affd-4153-a614-d5cdfda03815.jpg"
+    }, {
+      "url": "0a9887c8-faa3-4319-8afb-a8f65df8e5e5.jpg"
+    }, {
+      "url": "196deca3-3cbe-4ae7-9cfc-63dfc381b5cf.jpg"
+    }, {
+      "url": "101d2e3a-0099-448b-a53d-7e215f8225c0.jpg"
+    }]
+  }],
+  "category": "bike",
+  "brand": "Cannondale"
+}, {
+  "title": "Електро-велосипед Elite",
+  "descriptionShort": "Потужність мотору:1000W; Пробіг:60км;",
+  "description": "",
+  "thumbnail": "4b509b79-91aa-4753-9d7f-3497ae717185.jpg",
+  "rating": 0,
+  "products": [{
+    "description": null,
+    "isInStock": true,
+    "price": 9999,
+    "discountPercentage": 2,
+    "stock": 36,
+    "thumbnail": null,
+    "characteristics": [{
+      "name": "Максимальне навантаження:",
+      "value": "120 кг"
+    }, {
+      "name": "Матеріал рами:",
+      "value": "Сталь"
+    }, {
+      "name": "Розмір колеса:",
+      "value": "26"
+    }, {
+      "name": "Колір:",
+      "value": "Білий"
+    }, {
+      "name": "Потужність мотору:",
+      "value": "1000W"
+    }, {
+      "name": "Об‘єм акумулятору:",
+      "value": "13 А/h"
+    }, {
+      "name": "Максимальный пробіг:",
+      "value": "60 км"
+    }, {
+      "name": "Час заряду:",
+      "value": "6.5 год"
+    }, {
+      "name": "Максимальна швидкість:",
+      "value": "50 км/ч"
+    }],
+    "images": [{
+      "url": "4b509b79-91aa-4753-9d7f-3497ae717185.jpg"
+    }, {
+      "url": "8b299813-5781-437d-8117-5a8f6c111387.jpg"
+    }, {
+      "url": "8ce22026-e3ae-42ad-8728-39dfcba9db6e.jpg"
+    }, {
+      "url": "5762bc85-8e2a-4d6f-af9b-0549bdc3a06b.jpg"
+    }, {
+      "url": "3c5f6d29-fd00-40af-91ef-d8156a2fead7.jpg"
+    }, {
+      "url": "edb1acb6-2edb-4b93-a905-39c026d182f2.jpg"
+    }, {
+      "url": "21b6982a-03db-486a-8754-3daf8b6071f7.jpg"
+    }, {
+      "url": "fc12e6cb-c077-407b-b7ec-19d650191f92.jpg"
+    }]
+  }],
+  "category": "bike",
+  "brand": "Cannondale"
+}, {
+  "title": "Електро-велосипед Messina",
+  "descriptionShort": "Потужність мотору:350W; Пробіг:40км;",
+  "description": "",
+  "thumbnail": "4a087faa-275e-4fd1-91f5-94f468633582.jpg",
+  "rating": 0,
+  "products": [{
+    "description": null,
+    "isInStock": true,
+    "price": 200000,
+    "discountPercentage": 2,
+    "stock": 36,
+    "thumbnail": null,
+    "characteristics": [{
+      "name": "Розмір колеса:",
+      "value": "26"
+    }, {
+      "name": "Колір:",
+      "value": "Кремовий"
+    }, {
+      "name": "Потужність мотору:",
+      "value": "350W"
+    }, {
+      "name": "Об‘єм акумулятору:",
+      "value": "7.8 A/h"
+    }, {
+      "name": "Вольтаж:",
+      "value": "48V"
+    }, {
+      "name": "Додатково:",
+      "value": "Кошик та Багажник"
+    }],
+    "images": [{
+      "url": "4a087faa-275e-4fd1-91f5-94f468633582.jpg"
+    }, {
+      "url": "d1b8b067-c5a9-4258-9954-02f34394536a.jpg"
+    }, {
+      "url": "16d44cb8-9306-4db1-aeeb-b82c37aecb1e.jpg"
+    }, {
+      "url": "07cbbe98-1d66-4572-8efc-581db3a8546c.jpg"
+    }, {
+      "url": "553c00bb-ea3c-4e00-b627-7eaf7df8779e.jpg"
+    }, {
+      "url": "e663fd37-8271-4b3d-abd1-29f6fbfbf12a.jpg"
+    }, {
+      "url": "e5b6aebd-7762-4b78-8eef-6c325d810b45.jpg"
+    }, {
+      "url": "c54e0941-bd97-46c3-ab84-54b55c1e68cf.jpg"
+    }]
+  }],
+  "category": "bike",
+  "brand": "Ardis"
+}]

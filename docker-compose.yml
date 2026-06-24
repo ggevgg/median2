@@ -1,0 +1,31 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:alpine
+    container_name: postgres
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=pg
+      - POSTGRES_DB=median
+    ports:
+      - '3011:5432'
+    volumes:
+      - ./dumps/:/docker-entrypoint-initdb.d/
+      - ./postgres-data:/var/lib/postgresql/data
+
+  median:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    env_file:
+      - .env
+    ports:
+      - "3010:3000"
+    depends_on:
+      - postgres
+    volumes:
+      - ./upload/:/app/upload
